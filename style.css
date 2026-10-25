@@ -26,7 +26,7 @@ a {
     padding: 0 5px;
 }
 
-.header-links h3 {
+.header-links h2 {
     font-size: 24px;
 }
 
@@ -52,6 +52,7 @@ a {
 
 .header-content-description button {
     color: #F9FAF8;
+    margin-top: 5px;
     background-color: #3882F6;
     padding: 5px 25px;
     border-radius: 5px;
@@ -66,9 +67,46 @@ a {
     align-items: center;
 }
 
-.header-content h2 {
+.header-content h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     line-height: 45px;
+}
+
+.random-information {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-information h2 {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.information-subset {
+    display: flex;
+}
+
+.information-subset-element {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 140px;
+    margin: 0 10px;
+}
+
+.subset-element-picture {
+    height: 125px;
+    width: 125px;
+    border: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
 }
